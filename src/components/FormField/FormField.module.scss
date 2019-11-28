@@ -1,0 +1,27 @@
+.formField {
+  border: 1px solid lightgrey;
+  position: relative;
+  height: 4rem;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  &__label {
+    position: absolute;
+    top: -0.9rem;
+    left: 0.5rem;
+    background: #fff;
+    padding: 0 0.7rem;
+    font-size: 1.2rem;
+  }
+
+  &__input {
+    width: 100%;
+    display: block;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+  }
+}

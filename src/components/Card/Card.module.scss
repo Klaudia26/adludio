@@ -1,0 +1,85 @@
+.card {
+  width: 100rem;
+  display: flex;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2rem;
+  background-color: #fff;
+
+  @media only screen and (max-width: 1050px) {
+    display: block;
+    top: 50%;
+    width: 70rem;
+  }
+
+  @media only screen and (max-width: 750px) {
+    width: 45rem;
+  }
+
+  &__header {
+    background-image: url('../../assets/images/asset1.jpg');
+    background-size: 236% 107%;
+    background-position: 60% 100%;
+    min-width: 40%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 10rem 2rem 5rem 5rem;
+
+    @media only screen and (max-width: 1050px) {
+      background-size: 130% 210%;
+      background-position: 0% 30%;
+      border-top-right-radius: 2rem;
+      border-bottom-left-radius: 0rem;
+      padding: 7rem 2rem 5rem 5rem;
+    }
+
+    @media only screen and (max-width: 750px) {
+      display: none;
+    }
+
+    &__heading {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-weight: 500;
+      padding-bottom: 3rem;
+
+      @media only screen and (max-width: 1050px) {
+        padding-bottom: 1rem;
+      }
+    }
+
+    &__description {
+      color: #fff;
+
+      &__link {
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__body {
+    min-width: 60%;
+    padding: 5rem 6rem 4rem 6rem;
+    color: grey;
+
+    @media only screen and (max-width: 1050px) {
+      padding: 2rem 6rem 2rem 6rem;
+    }
+
+    &__logo {
+      height: 7rem;
+    }
+
+    &__title {
+      margin: 3rem 0;
+
+      @media only screen and (max-width: 1050px) {
+        margin: 2rem 0;
+      }
+    }
+  }
+}
