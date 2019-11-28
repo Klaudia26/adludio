@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/adludio/static/css/main.b9d5284b.chunk.css",
+    "main.js": "/adludio/static/js/main.8f76d9ab.chunk.js",
+    "main.js.map": "/adludio/static/js/main.8f76d9ab.chunk.js.map",
+    "runtime-main.js": "/adludio/static/js/runtime-main.a68b7b3d.js",
+    "runtime-main.js.map": "/adludio/static/js/runtime-main.a68b7b3d.js.map",
+    "static/js/2.38e558eb.chunk.js": "/adludio/static/js/2.38e558eb.chunk.js",
+    "static/js/2.38e558eb.chunk.js.map": "/adludio/static/js/2.38e558eb.chunk.js.map",
+    "index.html": "/adludio/index.html",
+    "precache-manifest.76ae03b1b95fe487d494b8011ffedb97.js": "/adludio/precache-manifest.76ae03b1b95fe487d494b8011ffedb97.js",
+    "service-worker.js": "/adludio/service-worker.js",
+    "static/css/main.b9d5284b.chunk.css.map": "/adludio/static/css/main.b9d5284b.chunk.css.map",
+    "static/media/Card.module.scss": "/adludio/static/media/asset1.aa6ffae2.jpg",
+    "static/media/main.scss": "/adludio/static/media/asset2.585afc78.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a68b7b3d.js",
+    "static/js/2.38e558eb.chunk.js",
+    "static/css/main.b9d5284b.chunk.css",
+    "static/js/main.8f76d9ab.chunk.js"
+  ]
+}
